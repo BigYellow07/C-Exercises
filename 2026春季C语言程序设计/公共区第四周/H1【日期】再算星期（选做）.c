@@ -18,7 +18,7 @@ int main(void)
 
     if(scanf("%d %d %d", &year, &month, &day) != 3)
     {
-        return 0;
+        return 1;
     }
 
     max_day = days_of_the_month(month, year);
