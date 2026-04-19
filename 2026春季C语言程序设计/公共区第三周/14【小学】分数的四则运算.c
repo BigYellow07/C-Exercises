@@ -69,7 +69,8 @@ int simplification(int a, int b)
     {
         printf("%d\n", a);
         return 0;
-    } else if(a < b) 
+    } 
+    else if(a < b) 
     {
         temp2 = b % a;
         if(temp2 == 0)
