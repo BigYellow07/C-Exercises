@@ -11,9 +11,8 @@ int main(void)
 
     char op;
 
-    if((scanf("%d/%d %c %d/%d", &n1, &d1, &op, &n2, &d2)) != 5) {
-        
-        return 0;
+    if((scanf("%d/%d %c %d/%d", &n1, &d1, &op, &n2, &d2)) != 5) { 
+        return 1;
     }
 
     switch(op) {
