@@ -16,7 +16,7 @@ int main(void)
 
     if(scanf("%d %d %d", &year, &month, &day) != 3)
     {
-        return 0;
+        return 1;
     }
 
     for(y = 1900; y < year; y++)
