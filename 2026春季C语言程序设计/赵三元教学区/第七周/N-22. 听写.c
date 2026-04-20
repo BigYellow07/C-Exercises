@@ -11,7 +11,7 @@ int main(void)
 		return 1;
 	}
 	
-	int length = n + 1;
+	int length = n + 3;
 	char *word = (char*)calloc(length, sizeof(char));
 	
 	for(i = 0; i <= n; i ++)
@@ -26,7 +26,7 @@ int main(void)
 	order_s = -1;
 	order_t = -1;
 	
-	for(i = 0; i <= n; i ++)
+	for(i = 1; i <= n + 1; i ++)
 	{
 		if(word[i] == 's')
 		{
@@ -35,7 +35,7 @@ int main(void)
 		}
 	}
 	
-	for(i = 0; i <= n; i ++)
+	for(i = 1; i <= n + 1; i ++)
 	{
 		if(word[i] == 't')
 		{
