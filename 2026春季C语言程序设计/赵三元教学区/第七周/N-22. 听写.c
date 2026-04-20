@@ -11,7 +11,7 @@ int main(void)
 		return 1;
 	}
 	
-	int length = n + 3;
+	int length = n + 2;
 	char *word = (char*)calloc(length, sizeof(char));
 	
 	for(i = 0; i <= n; i ++)
