@@ -20,7 +20,7 @@ int main(void)
 	}
 	else
 	{
-		for(x = 1; x <= n + 2*(n - 1); x ++)
+		for(x = 1; x <= n + 2 * (n - 1); x ++)
 		{
 			printf("*");
 		}
